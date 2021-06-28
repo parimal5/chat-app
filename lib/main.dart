@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
         backgroundColor: Colors.blueGrey,
-        accentColor: Colors.deepPurple,
+        accentColor: Colors.green[700],
         accentColorBrightness: Brightness.dark,
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
