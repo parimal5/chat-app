@@ -12,6 +12,7 @@ class ChatScreen extends StatelessWidget {
         title: Text('Chat App'),
         actions: [
           DropdownButton(
+            underline: Container(),
             icon: Icon(
               Icons.more_vert,
               color: Theme.of(context).primaryIconTheme.color,
@@ -23,7 +24,7 @@ class ChatScreen extends StatelessWidget {
                     children: [
                       Icon(Icons.exit_to_app),
                       SizedBox(
-                        height: 10,
+                        width: 8,
                       ),
                       Text('Logout'),
                     ],
